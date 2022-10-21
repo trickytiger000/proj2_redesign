@@ -1,0 +1,23 @@
+#accessibility_detail {
+    width: 30%;
+}
+iframe {
+    margin:auto;
+}
+.image_grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: min-content min-content min-content;
+    gap: 1rem;
+}
+.portrait {
+    width: 25%;
+}
+.portrait_images {
+    display: flex;
+
+}
+.redesign_links {
+    padding: 1rem;
+    text-align: center;
+}

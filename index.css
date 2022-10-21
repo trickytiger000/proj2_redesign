@@ -1,0 +1,144 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+a {
+    text-decoration:none;
+    color:darkslategray;
+    
+}
+a:hover {
+    background: rgb(160, 176, 192);
+}
+main a {
+    text-decoration: underline;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: lightslategray;
+    overflow-x: hidden;
+}
+#drink_diagrams {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: white;
+}
+
+img {
+    max-width: 100%;
+    display:block;
+    margin:auto;
+}
+#fig0 {
+    height: 100%;
+}
+#fig1 {
+    height: 100%;
+}
+table {
+    /* border: 2px lightgray solid; */
+    padding: 1rem;
+}
+td {
+    border-top: 2px white solid;
+}
+th {
+    text-align: left;
+    padding-bottom: 1rem;
+}
+header {
+    text-align:left;
+    background: rgb(85, 102, 119);
+    padding: 3rem;
+    color:rgb(208, 220, 231);
+}
+#page_title {
+    font-size:4rem;
+}
+.highlight {
+    background: rgb(208, 220, 231);
+    padding: 1rem;
+}
+h1 {
+    margin:0;
+}
+h2 {
+    text-decoration: underline;
+    margin-top: 0;
+}
+main {
+    padding: 3rem;
+}
+
+section {
+    background: rgb(174, 190, 206);
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+#observations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin:0;
+    text-align: left;
+    align-items:flex-start;
+    padding-top: 3rem;
+}
+#left_side_bar {
+    position:fixed;
+    width: 300px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; */
+    display: grid;
+    grid-template-rows: 20vh 80vh;
+    background: rgb(208, 220, 231);
+    height: 100vh;
+}
+#site_menu {
+    padding: 1rem;
+    width: min-content;
+}
+
+h4,h5 {
+    margin:0;
+    padding: 1rem;
+}
+h5 {
+    text-align: center;
+}
+#obs_points {
+    width:60%;
+}
+#fig2 {
+    width:20%;
+}
+#maps {
+    display: flex;
+    flex-direction: row;
+}
+.empathy_map {
+    margin: 0 1rem;
+    width: 50%;
+}
+
+#non-nav-content {
+    width: calc(100vw - 300px);
+    position: absolute;
+    left:300px;
+}
+.big_image {
+    width: 80%;
+}
+
