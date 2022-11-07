@@ -141,4 +141,11 @@ h5 {
 .big_image {
     width: 80%;
 }
+#lofi_tab {
+    height:90vh;
+    
+}
+#lofi_mobile {
+    height:90vh;
+}
 
